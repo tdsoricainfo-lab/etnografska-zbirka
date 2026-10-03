@@ -10,7 +10,7 @@ st.title("📊 Excel Dataset Viewer")
 st.write("This application dynamically loads and optimizes a large Excel spreadsheet from Google Drive.")
 
 # 🔗 YOUR OFFICIAL SHARED EXCEL RESOURCE LINK WITH FORCED DOWNLOAD OVERRIDES
-EXCEL_URL = "https://docs.google.com/spreadsheets/d/1mXSjfajN24VEDFgbECaLhlyOQZu_I4Eb/edit?usp=drive_link&ouid=111620865490664136973&rtpof=true&sd=true"
+EXCEL_URL = "https://docs.google.com/spreadsheets/d/1mXSjfajN24VEDFgbECaLhlyOQZu_I4Eb/edit?usp=sharing&ouid=111620865490664136973&rtpof=true&sd=true"
 
 # 1. Cache the data load function so it doesn't reload on every user click
 @st.cache_data
